@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WHPhotosSaveAlbum_Example' do
+  pod 'WHPhotosSaveAlbum', :path => '../'
+
+  target 'WHPhotosSaveAlbum_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

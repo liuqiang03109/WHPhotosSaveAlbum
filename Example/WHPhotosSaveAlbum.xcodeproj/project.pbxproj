@@ -23,6 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		79AF64908134930A90EABEE8 /* Pods_WHPhotosSaveAlbum_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B348B20A753300BE1B3A38C6 /* Pods_WHPhotosSaveAlbum_Example.framework */; };
+		808AE76A1E65AFC90045D7FF /* ting.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 808AE7691E65AFC90045D7FF /* ting.jpeg */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -58,14 +59,15 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6900709725E20516714A8132 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6900709725E20516714A8132 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6C80B61E9F4601D1B6970ABD /* Pods-WHPhotosSaveAlbum_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHPhotosSaveAlbum_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-WHPhotosSaveAlbum_Example/Pods-WHPhotosSaveAlbum_Example.release.xcconfig"; sourceTree = "<group>"; };
-		6CCA87B595794E4805F6E8D2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6CCA87B595794E4805F6E8D2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74480C9E0B75765EBA663151 /* Pods_WHPhotosSaveAlbum_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WHPhotosSaveAlbum_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		808AE7691E65AFC90045D7FF /* ting.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ting.jpeg; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B348B20A753300BE1B3A38C6 /* Pods_WHPhotosSaveAlbum_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WHPhotosSaveAlbum_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEB4A4C8DF28AB12561A6D29 /* WHPhotosSaveAlbum.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WHPhotosSaveAlbum.podspec; path = ../WHPhotosSaveAlbum.podspec; sourceTree = "<group>"; };
+		DEB4A4C8DF28AB12561A6D29 /* WHPhotosSaveAlbum.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WHPhotosSaveAlbum.podspec; path = ../WHPhotosSaveAlbum.podspec; sourceTree = "<group>"; };
 		FC692AF027D78C5D0D228BC5 /* Pods-WHPhotosSaveAlbum_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHPhotosSaveAlbum_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WHPhotosSaveAlbum_Tests/Pods-WHPhotosSaveAlbum_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,6 +139,7 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* WHViewController.h */,
 				6003F5A6195388D20070C39A /* WHViewController.m */,
+				808AE7691E65AFC90045D7FF /* ting.jpeg */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -279,6 +282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				808AE76A1E65AFC90045D7FF /* ting.jpeg in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,

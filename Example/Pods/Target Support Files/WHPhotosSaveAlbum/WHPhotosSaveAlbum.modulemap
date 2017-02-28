@@ -1,0 +1,6 @@
+framework module WHPhotosSaveAlbum {
+  umbrella header "WHPhotosSaveAlbum-umbrella.h"
+
+  export *
+  module * { export * }
+}

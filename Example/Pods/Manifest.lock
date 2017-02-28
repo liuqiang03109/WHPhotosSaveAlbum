@@ -1,0 +1,16 @@
+PODS:
+  - WHPhotosSaveAlbum (0.1.0)
+
+DEPENDENCIES:
+  - WHPhotosSaveAlbum (from `../`)
+
+EXTERNAL SOURCES:
+  WHPhotosSaveAlbum:
+    :path: ../
+
+SPEC CHECKSUMS:
+  WHPhotosSaveAlbum: 5c54311200f6a52c3e5b664328d91cb1fa8d3770
+
+PODFILE CHECKSUM: 300f71e8c8f5b51ba09210390bfe6f75603d2139
+
+COCOAPODS: 1.2.0

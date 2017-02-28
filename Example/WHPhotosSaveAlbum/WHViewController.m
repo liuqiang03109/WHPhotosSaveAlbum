@@ -7,8 +7,15 @@
 //
 
 #import "WHViewController.h"
+#import <WHPhotosSaveAlbum/WHPhotoAlbumTool.h>
 
-@interface WHViewController ()
+
+
+@interface WHViewController () <UIScrollViewDelegate>
+
+@property (nonatomic, weak) UIScrollView *scrollView;
+@property (nonatomic, weak) UIImageView *imageView;
+
 
 @end
 
@@ -17,8 +24,38 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    // scrollView
+    UIScrollView *scrollView = [[UIScrollView alloc] init];
+    scrollView.frame = [UIScreen mainScreen].bounds;
+    [self.view insertSubview:scrollView atIndex:0];
+    self.scrollView = scrollView;
+    
+    // imageView
+    UIImageView *imageView = [[UIImageView alloc] init];
+    
+    imageView.frame = scrollView.frame;
+    imageView.image = [UIImage imageNamed:@"ting.jpeg"];
+    
+    [scrollView addSubview:imageView];
+    self.imageView = imageView;
+    
+    //    // 图片缩放
+    scrollView.maximumZoomScale = 2;
+    scrollView.delegate = self;
+    
 }
+- (IBAction)saveImage:(UIButton *)sender {
+    [WHPhotoAlbumTool savePhotoToAlbum:self.imageView.image];
+}
+
+
+#pragma mark - <UIScrollViewDelegate>
+- (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView
+{
+    return self.imageView;
+}
+
 
 - (void)didReceiveMemoryWarning
 {

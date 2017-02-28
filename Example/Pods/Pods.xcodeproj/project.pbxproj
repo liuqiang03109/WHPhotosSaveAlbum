@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180D83E6533B5143FB0F31B867C2C217 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		28E77D82CDDFFDB916554FA748C03B80 /* WHPhotosSaveAlbum-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E95D1C40B24A8B664787D20A68710A62 /* WHPhotosSaveAlbum-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CFC6B4E33471976B5F32B705D35F851 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		4D9D51E73D2761C37B1CB598856C6978 /* WHPhotoAlbumTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D1114EA56DF85E043B7FBAF1D6B4E6 /* WHPhotoAlbumTool.m */; };
+		4F9CFBBDC9646EA38EB99BB1B96A146B /* WHPhotosSaveAlbum-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D079BB4FC9A6612C28FE95C989079A /* WHPhotosSaveAlbum-dummy.m */; };
+		5C826B08D56C37D47473F30619A452EA /* Pods-WHPhotosSaveAlbum_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DAFDF0BAF2D2D31E68514DAA4F7C22 /* Pods-WHPhotosSaveAlbum_Example-dummy.m */; };
+		68C5B647BADA9862F4A420920E653825 /* Pods-WHPhotosSaveAlbum_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D78378AF9BC7D6B2C70E8558A6CC0031 /* Pods-WHPhotosSaveAlbum_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0DF2E82C7C057B2D08B291C017AF3B /* Pods-WHPhotosSaveAlbum_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D71A871AD7E12FF9D5E4F2700266F13 /* Pods-WHPhotosSaveAlbum_Tests-dummy.m */; };
+		787BF5688F0598BD7F2E5D9B2FC8EF5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		B4E39DDA617D6B165847DB04834C0ADB /* Pods-WHPhotosSaveAlbum_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD269F9D367131BE390C09D4B8DD167F /* Pods-WHPhotosSaveAlbum_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB71800623B605E6C65D6E1DB1EE4AED /* WHPhotoAlbumTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AA181E622A0C6D9B7952D165D93E8D1 /* WHPhotoAlbumTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33A3891CC1F885F963119BF5CB71466A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7333A3653AF9E4315300CE3270073D22;
+			remoteInfo = WHPhotosSaveAlbum;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		045EE4E34AF5606A71AD5EA35FA58017 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		079F9F504567EE4DFCD5626D6DEEA6BB /* Pods-WHPhotosSaveAlbum_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WHPhotosSaveAlbum_Example.modulemap"; sourceTree = "<group>"; };
+		18A2F1F8B7EA27706FA615B8BB1B43A3 /* Pods-WHPhotosSaveAlbum_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WHPhotosSaveAlbum_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		24D079BB4FC9A6612C28FE95C989079A /* WHPhotosSaveAlbum-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WHPhotosSaveAlbum-dummy.m"; sourceTree = "<group>"; };
+		2AA181E622A0C6D9B7952D165D93E8D1 /* WHPhotoAlbumTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WHPhotoAlbumTool.h; sourceTree = "<group>"; };
+		36D1114EA56DF85E043B7FBAF1D6B4E6 /* WHPhotoAlbumTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WHPhotoAlbumTool.m; sourceTree = "<group>"; };
+		424EE14852604DC6E66124D9419EF311 /* Pods_WHPhotosSaveAlbum_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WHPhotosSaveAlbum_Tests.framework; path = "Pods-WHPhotosSaveAlbum_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4585C753A27F43DE178873C725D8D737 /* Pods-WHPhotosSaveAlbum_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WHPhotosSaveAlbum_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		4634681F38A550028C0C95BC1B294060 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61C6C2B1B7645EDF27165378A750EC0E /* WHPhotosSaveAlbum.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WHPhotosSaveAlbum.xcconfig; sourceTree = "<group>"; };
+		69E4EE0B5FB0C1956F96A60848B0199C /* Pods-WHPhotosSaveAlbum_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WHPhotosSaveAlbum_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6FE8F3FCC9E97AD2DAABAB7932B2CCB8 /* WHPhotosSaveAlbum.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = WHPhotosSaveAlbum.modulemap; sourceTree = "<group>"; };
+		875A846803A95309060823626ACC0F08 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		890CB421A4A11E480834776F14ABFF0F /* Pods-WHPhotosSaveAlbum_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WHPhotosSaveAlbum_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8D71A871AD7E12FF9D5E4F2700266F13 /* Pods-WHPhotosSaveAlbum_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WHPhotosSaveAlbum_Tests-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97C18020897C045E2658178FAC8FA313 /* Pods-WHPhotosSaveAlbum_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WHPhotosSaveAlbum_Example-resources.sh"; sourceTree = "<group>"; };
+		9F32D6755FA57A6FFC2FC4ED7A4C844A /* Pods-WHPhotosSaveAlbum_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WHPhotosSaveAlbum_Example-frameworks.sh"; sourceTree = "<group>"; };
+		ABC07D6F567282B9443FA115B14F6CD5 /* Pods-WHPhotosSaveAlbum_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WHPhotosSaveAlbum_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		ABC3810183E3E487BCA7DD2F0CBA40CB /* Pods-WHPhotosSaveAlbum_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WHPhotosSaveAlbum_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C9DA4A2B962F20A2AB5B8C2A829226A3 /* Pods-WHPhotosSaveAlbum_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WHPhotosSaveAlbum_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C9DAFDF0BAF2D2D31E68514DAA4F7C22 /* Pods-WHPhotosSaveAlbum_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WHPhotosSaveAlbum_Example-dummy.m"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CD269F9D367131BE390C09D4B8DD167F /* Pods-WHPhotosSaveAlbum_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WHPhotosSaveAlbum_Example-umbrella.h"; sourceTree = "<group>"; };
+		D78378AF9BC7D6B2C70E8558A6CC0031 /* Pods-WHPhotosSaveAlbum_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WHPhotosSaveAlbum_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DF21C979579089E50966905A6C3FA9E7 /* WHPhotosSaveAlbum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WHPhotosSaveAlbum.framework; path = WHPhotosSaveAlbum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7FF90530B98B992E825346ABD3AD63 /* Pods-WHPhotosSaveAlbum_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WHPhotosSaveAlbum_Tests-resources.sh"; sourceTree = "<group>"; };
+		E95D1C40B24A8B664787D20A68710A62 /* WHPhotosSaveAlbum-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WHPhotosSaveAlbum-umbrella.h"; sourceTree = "<group>"; };
+		EB2AA204EA4FB89DBB87386A3BCB8A66 /* Pods_WHPhotosSaveAlbum_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WHPhotosSaveAlbum_Example.framework; path = "Pods-WHPhotosSaveAlbum_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6CC4AD329F6648A154F4487F946D801 /* Pods-WHPhotosSaveAlbum_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WHPhotosSaveAlbum_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FC6703DCE747764AB4925F526BA46987 /* Pods-WHPhotosSaveAlbum_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WHPhotosSaveAlbum_Tests.modulemap"; sourceTree = "<group>"; };
+		FE70FDCAD19BBB23CA7F8AEF630DF85C /* WHPhotosSaveAlbum-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WHPhotosSaveAlbum-prefix.pch"; sourceTree = "<group>"; };
+		FFF1132F97A8342DC653B81AB236B4B1 /* Pods-WHPhotosSaveAlbum_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WHPhotosSaveAlbum_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F7E1447ECB30E08724BE50E6AD71C00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				787BF5688F0598BD7F2E5D9B2FC8EF5D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88497FB29264229C9FF868069609CB4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CFC6B4E33471976B5F32B705D35F851 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F0C49277DA80DBB5D6EEBFD869F8D33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180D83E6533B5143FB0F31B867C2C217 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0592F7C4E46D2C667A05F3E221739782 /* WHPhotosSaveAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				FAC386C7E06D651EAD5254664FF54FF1 /* Support Files */,
+				634AC1DA0A52F3BA9E1B31E1C5B6C06E /* WHPhotosSaveAlbum */,
+			);
+			name = WHPhotosSaveAlbum;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2DE7D88CF3A449F543D4980A4101B678 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0592F7C4E46D2C667A05F3E221739782 /* WHPhotosSaveAlbum */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		57C8B1D864FC78DF48C2D0617EB7CF2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB2AA204EA4FB89DBB87386A3BCB8A66 /* Pods_WHPhotosSaveAlbum_Example.framework */,
+				424EE14852604DC6E66124D9419EF311 /* Pods_WHPhotosSaveAlbum_Tests.framework */,
+				DF21C979579089E50966905A6C3FA9E7 /* WHPhotosSaveAlbum.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59ACF0ADEE4A5EDF1A140455C4F9DBD6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2AA181E622A0C6D9B7952D165D93E8D1 /* WHPhotoAlbumTool.h */,
+				36D1114EA56DF85E043B7FBAF1D6B4E6 /* WHPhotoAlbumTool.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		634AC1DA0A52F3BA9E1B31E1C5B6C06E /* WHPhotosSaveAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				59ACF0ADEE4A5EDF1A140455C4F9DBD6 /* Classes */,
+			);
+			name = WHPhotosSaveAlbum;
+			path = WHPhotosSaveAlbum;
+			sourceTree = "<group>";
+		};
+		6E70B7141BA5B47E1D8B90CD5D3249A7 /* Pods-WHPhotosSaveAlbum_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				875A846803A95309060823626ACC0F08 /* Info.plist */,
+				FC6703DCE747764AB4925F526BA46987 /* Pods-WHPhotosSaveAlbum_Tests.modulemap */,
+				FFF1132F97A8342DC653B81AB236B4B1 /* Pods-WHPhotosSaveAlbum_Tests-acknowledgements.markdown */,
+				69E4EE0B5FB0C1956F96A60848B0199C /* Pods-WHPhotosSaveAlbum_Tests-acknowledgements.plist */,
+				8D71A871AD7E12FF9D5E4F2700266F13 /* Pods-WHPhotosSaveAlbum_Tests-dummy.m */,
+				4585C753A27F43DE178873C725D8D737 /* Pods-WHPhotosSaveAlbum_Tests-frameworks.sh */,
+				DF7FF90530B98B992E825346ABD3AD63 /* Pods-WHPhotosSaveAlbum_Tests-resources.sh */,
+				D78378AF9BC7D6B2C70E8558A6CC0031 /* Pods-WHPhotosSaveAlbum_Tests-umbrella.h */,
+				ABC07D6F567282B9443FA115B14F6CD5 /* Pods-WHPhotosSaveAlbum_Tests.debug.xcconfig */,
+				18A2F1F8B7EA27706FA615B8BB1B43A3 /* Pods-WHPhotosSaveAlbum_Tests.release.xcconfig */,
+			);
+			name = "Pods-WHPhotosSaveAlbum_Tests";
+			path = "Target Support Files/Pods-WHPhotosSaveAlbum_Tests";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				2DE7D88CF3A449F543D4980A4101B678 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				57C8B1D864FC78DF48C2D0617EB7CF2E /* Products */,
+				956AD54A53BA2B910F97F2AFA6EE2041 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		956AD54A53BA2B910F97F2AFA6EE2041 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8C4C8DDE09F41301E38D3E2782AB574 /* Pods-WHPhotosSaveAlbum_Example */,
+				6E70B7141BA5B47E1D8B90CD5D3249A7 /* Pods-WHPhotosSaveAlbum_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8C4C8DDE09F41301E38D3E2782AB574 /* Pods-WHPhotosSaveAlbum_Example */ = {
+			isa = PBXGroup;
+			children = (
+				045EE4E34AF5606A71AD5EA35FA58017 /* Info.plist */,
+				079F9F504567EE4DFCD5626D6DEEA6BB /* Pods-WHPhotosSaveAlbum_Example.modulemap */,
+				C9DA4A2B962F20A2AB5B8C2A829226A3 /* Pods-WHPhotosSaveAlbum_Example-acknowledgements.markdown */,
+				F6CC4AD329F6648A154F4487F946D801 /* Pods-WHPhotosSaveAlbum_Example-acknowledgements.plist */,
+				C9DAFDF0BAF2D2D31E68514DAA4F7C22 /* Pods-WHPhotosSaveAlbum_Example-dummy.m */,
+				9F32D6755FA57A6FFC2FC4ED7A4C844A /* Pods-WHPhotosSaveAlbum_Example-frameworks.sh */,
+				97C18020897C045E2658178FAC8FA313 /* Pods-WHPhotosSaveAlbum_Example-resources.sh */,
+				CD269F9D367131BE390C09D4B8DD167F /* Pods-WHPhotosSaveAlbum_Example-umbrella.h */,
+				ABC3810183E3E487BCA7DD2F0CBA40CB /* Pods-WHPhotosSaveAlbum_Example.debug.xcconfig */,
+				890CB421A4A11E480834776F14ABFF0F /* Pods-WHPhotosSaveAlbum_Example.release.xcconfig */,
+			);
+			name = "Pods-WHPhotosSaveAlbum_Example";
+			path = "Target Support Files/Pods-WHPhotosSaveAlbum_Example";
+			sourceTree = "<group>";
+		};
+		FAC386C7E06D651EAD5254664FF54FF1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4634681F38A550028C0C95BC1B294060 /* Info.plist */,
+				6FE8F3FCC9E97AD2DAABAB7932B2CCB8 /* WHPhotosSaveAlbum.modulemap */,
+				61C6C2B1B7645EDF27165378A750EC0E /* WHPhotosSaveAlbum.xcconfig */,
+				24D079BB4FC9A6612C28FE95C989079A /* WHPhotosSaveAlbum-dummy.m */,
+				FE70FDCAD19BBB23CA7F8AEF630DF85C /* WHPhotosSaveAlbum-prefix.pch */,
+				E95D1C40B24A8B664787D20A68710A62 /* WHPhotosSaveAlbum-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WHPhotosSaveAlbum";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0AA2D8A284444E3D02FF3F24DD0398B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68C5B647BADA9862F4A420920E653825 /* Pods-WHPhotosSaveAlbum_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AAD3568DBBA7A31DA2A12349BA42A83 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB71800623B605E6C65D6E1DB1EE4AED /* WHPhotoAlbumTool.h in Headers */,
+				28E77D82CDDFFDB916554FA748C03B80 /* WHPhotosSaveAlbum-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782584AE2D9DE6464A8BCB25636DC1CB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4E39DDA617D6B165847DB04834C0ADB /* Pods-WHPhotosSaveAlbum_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		04C3CBFE64ACD0DB7B49D49BAF0588F8 /* Pods-WHPhotosSaveAlbum_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E9233780A116331949C316722EAEB97 /* Build configuration list for PBXNativeTarget "Pods-WHPhotosSaveAlbum_Example" */;
+			buildPhases = (
+				B4EBA7C317947AA0C4223DD39DD41F97 /* Sources */,
+				0F7E1447ECB30E08724BE50E6AD71C00 /* Frameworks */,
+				782584AE2D9DE6464A8BCB25636DC1CB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DE81EA6D2E3CA5775F5ACC07A46A796 /* PBXTargetDependency */,
+			);
+			name = "Pods-WHPhotosSaveAlbum_Example";
+			productName = "Pods-WHPhotosSaveAlbum_Example";
+			productReference = EB2AA204EA4FB89DBB87386A3BCB8A66 /* Pods_WHPhotosSaveAlbum_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7333A3653AF9E4315300CE3270073D22 /* WHPhotosSaveAlbum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 052A2414FFAE5A47863182F08284827F /* Build configuration list for PBXNativeTarget "WHPhotosSaveAlbum" */;
+			buildPhases = (
+				F57B13F2C623636BA144244BCD6DB463 /* Sources */,
+				9F0C49277DA80DBB5D6EEBFD869F8D33 /* Frameworks */,
+				6AAD3568DBBA7A31DA2A12349BA42A83 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WHPhotosSaveAlbum;
+			productName = WHPhotosSaveAlbum;
+			productReference = DF21C979579089E50966905A6C3FA9E7 /* WHPhotosSaveAlbum.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D51E213B101C2705D2E64D6F5BA92504 /* Pods-WHPhotosSaveAlbum_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5C5658F6F876526054B0D5A8D45E5DE /* Build configuration list for PBXNativeTarget "Pods-WHPhotosSaveAlbum_Tests" */;
+			buildPhases = (
+				E0CAE9D1481854F4B0B2013CB394D51D /* Sources */,
+				88497FB29264229C9FF868069609CB4B /* Frameworks */,
+				0AA2D8A284444E3D02FF3F24DD0398B6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-WHPhotosSaveAlbum_Tests";
+			productName = "Pods-WHPhotosSaveAlbum_Tests";
+			productReference = 424EE14852604DC6E66124D9419EF311 /* Pods_WHPhotosSaveAlbum_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 57C8B1D864FC78DF48C2D0617EB7CF2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04C3CBFE64ACD0DB7B49D49BAF0588F8 /* Pods-WHPhotosSaveAlbum_Example */,
+				D51E213B101C2705D2E64D6F5BA92504 /* Pods-WHPhotosSaveAlbum_Tests */,
+				7333A3653AF9E4315300CE3270073D22 /* WHPhotosSaveAlbum */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4EBA7C317947AA0C4223DD39DD41F97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C826B08D56C37D47473F30619A452EA /* Pods-WHPhotosSaveAlbum_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0CAE9D1481854F4B0B2013CB394D51D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F0DF2E82C7C057B2D08B291C017AF3B /* Pods-WHPhotosSaveAlbum_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F57B13F2C623636BA144244BCD6DB463 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D9D51E73D2761C37B1CB598856C6978 /* WHPhotoAlbumTool.m in Sources */,
+				4F9CFBBDC9646EA38EB99BB1B96A146B /* WHPhotosSaveAlbum-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DE81EA6D2E3CA5775F5ACC07A46A796 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WHPhotosSaveAlbum;
+			target = 7333A3653AF9E4315300CE3270073D22 /* WHPhotosSaveAlbum */;
+			targetProxy = 33A3891CC1F885F963119BF5CB71466A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1500A2AF0F8C0CDA6A0F873AB4DE42CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 890CB421A4A11E480834776F14ABFF0F /* Pods-WHPhotosSaveAlbum_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WHPhotosSaveAlbum_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WHPhotosSaveAlbum_Example/Pods-WHPhotosSaveAlbum_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WHPhotosSaveAlbum_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		571A4B7794133D0F523C91697FC09FFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18A2F1F8B7EA27706FA615B8BB1B43A3 /* Pods-WHPhotosSaveAlbum_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WHPhotosSaveAlbum_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WHPhotosSaveAlbum_Tests/Pods-WHPhotosSaveAlbum_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WHPhotosSaveAlbum_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		579D8BCCC9572FDA83BED2D1CFE112B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61C6C2B1B7645EDF27165378A750EC0E /* WHPhotosSaveAlbum.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WHPhotosSaveAlbum/WHPhotosSaveAlbum-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WHPhotosSaveAlbum/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WHPhotosSaveAlbum/WHPhotosSaveAlbum.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = WHPhotosSaveAlbum;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8173EE4327026A52AD8A7E3627155344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABC07D6F567282B9443FA115B14F6CD5 /* Pods-WHPhotosSaveAlbum_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WHPhotosSaveAlbum_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WHPhotosSaveAlbum_Tests/Pods-WHPhotosSaveAlbum_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WHPhotosSaveAlbum_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8528A9D0EF4A921F01E6066EF07DAD11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61C6C2B1B7645EDF27165378A750EC0E /* WHPhotosSaveAlbum.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WHPhotosSaveAlbum/WHPhotosSaveAlbum-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WHPhotosSaveAlbum/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WHPhotosSaveAlbum/WHPhotosSaveAlbum.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = WHPhotosSaveAlbum;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93C584E117E4148CD650D49C04B0FB47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABC3810183E3E487BCA7DD2F0CBA40CB /* Pods-WHPhotosSaveAlbum_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WHPhotosSaveAlbum_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WHPhotosSaveAlbum_Example/Pods-WHPhotosSaveAlbum_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WHPhotosSaveAlbum_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		052A2414FFAE5A47863182F08284827F /* Build configuration list for PBXNativeTarget "WHPhotosSaveAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				579D8BCCC9572FDA83BED2D1CFE112B9 /* Debug */,
+				8528A9D0EF4A921F01E6066EF07DAD11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E9233780A116331949C316722EAEB97 /* Build configuration list for PBXNativeTarget "Pods-WHPhotosSaveAlbum_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93C584E117E4148CD650D49C04B0FB47 /* Debug */,
+				1500A2AF0F8C0CDA6A0F873AB4DE42CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5C5658F6F876526054B0D5A8D45E5DE /* Build configuration list for PBXNativeTarget "Pods-WHPhotosSaveAlbum_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8173EE4327026A52AD8A7E3627155344 /* Debug */,
+				571A4B7794133D0F523C91697FC09FFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

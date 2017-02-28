@@ -1,0 +1,22 @@
+{
+  "name": "WHPhotosSaveAlbum",
+  "version": "0.1.0",
+  "summary": "A short description of WHPhotosSaveAlbum.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wenhe-liu/WHPhotosSaveAlbum",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wenhe-liu": "liu.wen.he@chrjdt.com"
+  },
+  "source": {
+    "git": "https://github.com/wenhe-liu/WHPhotosSaveAlbum.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WHPhotosSaveAlbum/Classes/**/*"
+}

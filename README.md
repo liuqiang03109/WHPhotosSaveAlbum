@@ -19,7 +19,10 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "WHPhotosSaveAlbum"
 ```
-
+```objective-c  
+    //传一个image进去就可以将image保存到相册，并创建一个属于自己app的相簿
+    [WHPhotoAlbumTool savePhotoToAlbum:self.imageView.image];
+```
 ## Author
 
 wenhe-liu, liu.wen.he@chrjdt.com

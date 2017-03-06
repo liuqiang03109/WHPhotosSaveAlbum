@@ -46,6 +46,7 @@
     
 }
 - (IBAction)saveImage:(UIButton *)sender {
+    //传一个image进去就可以将image保存到相册，并创建一个属于自己app的相簿
     [WHPhotoAlbumTool savePhotoToAlbum:self.imageView.image];
 }
 
